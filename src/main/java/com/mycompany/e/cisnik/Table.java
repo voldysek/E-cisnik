@@ -11,17 +11,17 @@ import java.util.ArrayList;
  *
  * @author voldy
  */
-public class Order {
+public class Table {
     private int table;
     private String mealName;
     
-    public Order(int table){
+    public Table(int table){
     this.table = table;
    
     
     }
 
-public void deleteOrder(int table){
+public void deleteTable(int table){
 
 //DROP * FROM Orders WHERE table==table
 
