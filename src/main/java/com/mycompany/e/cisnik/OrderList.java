@@ -9,6 +9,6 @@ package com.mycompany.e.cisnik;
  *
  * @author voldy
  */
-public class OrderList {
+public class OrderList extends List {
     
 }

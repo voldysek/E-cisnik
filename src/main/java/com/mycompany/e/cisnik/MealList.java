@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
  *
  * @author voldy
  */
-public class MealList {
+public class MealList extends List {
     
     
     
