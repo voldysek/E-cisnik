@@ -11,7 +11,7 @@ package com.mycompany.e.cisnik;
  */
 public class Order {
     
-    //SELECT Nazev FROM Jidlo where stul==promenna
+    
     
     
 }

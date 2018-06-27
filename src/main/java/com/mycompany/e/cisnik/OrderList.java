@@ -11,9 +11,10 @@ package com.mycompany.e.cisnik;
  */
 public class OrderList extends List {
     
+    @Override
     public void Listing(){
     
-    
+    //SELECT Nazev FROM Jidlo where stul==promenna
     
     }
 }
