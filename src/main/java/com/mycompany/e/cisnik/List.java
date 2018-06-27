@@ -14,4 +14,9 @@ import java.util.ArrayList;
 public class List {
     protected ArrayList list;
     
+    
+    public void Listing(){
+    
+    }
+    
 }

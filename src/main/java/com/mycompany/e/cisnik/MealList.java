@@ -15,6 +15,17 @@ import javax.swing.table.DefaultTableModel;
  */
 public class MealList extends List {
     
+   
+    
+    @Override
+    public void Listing(){
+    
+        
+        
+        //SELECT Nazev, Dostupnost FROM Jidlo; 
+    
+    
+    }
     
     
     /* 
