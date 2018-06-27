@@ -5,7 +5,6 @@
  */
 package com.mycompany.e.cisnik;
 
-import java.util.ArrayList;
 
 /**
  *
@@ -26,6 +25,13 @@ public void deleteTable(int table){
 //DROP * FROM Orders WHERE table==table
 
 }
+public void listTable(){
+
+//SELECT nazev FROM Objednavky WHERE TABLE==table
+
+
+}
+
 
 
     
