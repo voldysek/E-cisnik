@@ -5,10 +5,13 @@
  */
 package com.mycompany.e.cisnik;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author voldy
  */
 public class List {
+    protected ArrayList list;
     
 }
