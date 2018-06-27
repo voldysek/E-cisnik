@@ -17,12 +17,18 @@ public class Order {
     
     public Order(int table){
     this.table = table;
-    
-    
-        
-  
    
-    }    
+    
+    }
+
+public void deleteOrder(int table){
+
+//DROP * FROM Orders WHERE table==table
+
+}
+
+
+    
     
     
     
