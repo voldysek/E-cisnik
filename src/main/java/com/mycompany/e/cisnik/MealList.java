@@ -11,4 +11,9 @@ package com.mycompany.e.cisnik;
  */
 public class MealList {
     
+   
+   
+    
+    
+    
 }
