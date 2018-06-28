@@ -16,6 +16,7 @@ public class MealList implements MealListInterface {
     private ArrayList<Meal> meallist;
 
     public MealList() {
+        meallist = new ArrayList<>();
 
         //new ArrayList<Meal>;
     }
