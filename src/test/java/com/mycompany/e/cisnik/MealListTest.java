@@ -30,10 +30,10 @@ public class MealListTest {
        MealList ml = new MealList();
        ml.addToMealList(m);
        
-        assertEquals(m,ml.get(0));
+        assertEquals("Rizek", ml.get(0).getMealName());
        
        
-        fail("The test case is a prototype.");
+        fail("Test failture");
     }
 
     /**
