@@ -20,9 +20,9 @@ public class Table {
     
     }
 
-public void deleteTable(int table){
+public void deleteTable(){
 
-//DROP * FROM Orders WHERE table==table
+//DROP * FROM Orders WHERE this.getTable()==table
 
 }
 public void listTable(){
@@ -39,11 +39,18 @@ public int tablePrice(){
 //price = SELECT price FROM Objednavky WHERE TABLE==table
 //prochazet tabulku po jednom radku a ulozit do price, mozna bude potreba v te tabulce stejne zavest id, nevim jak se to da prochazet po jednom
    
-price = price+price;
+this.price= this.price+this.price;
  //}
 
 return price;
 }
+
+    public int getTable() {
+        return table;
+    }
+
+
+
 
 
 
