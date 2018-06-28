@@ -22,7 +22,7 @@ public class Table implements TableInterface {
     @Override
     public void deleteTable() {
 
-//DROP * FROM Orders WHERE this.getTable()==table
+//DELETE * FROM Orders WHERE this.getTable()==table
     }
 
     @Override
