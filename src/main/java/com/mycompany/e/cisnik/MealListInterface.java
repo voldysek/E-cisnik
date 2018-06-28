@@ -13,7 +13,14 @@ import java.util.ArrayList;
  */
 public interface MealListInterface {
 
+    /**
+     * Metoda, pomocí které se přidá jídlo do seznamu.
+     * @param meal Jídlo, které se přidává do seznamu.
+     */
     public void addToMealList(Meal meal);
 
+    /**
+     * Metoda, která vypíše celý list na obrazovku.
+     */
     public void listMealList();
 }
