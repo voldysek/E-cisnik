@@ -12,7 +12,6 @@ package com.mycompany.e.cisnik;
  */
 public class Table {
     private int table;
-    private String mealName;
     private int price;
     
     public Table(int table){
