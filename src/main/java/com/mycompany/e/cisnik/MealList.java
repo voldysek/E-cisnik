@@ -12,7 +12,7 @@ import java.util.ArrayList;
  */
 public class MealList {
     
-    private ArrayList meallist;
+    private ArrayList<Meal> meallist;
     
     public MealList(){
         
