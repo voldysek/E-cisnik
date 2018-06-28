@@ -5,11 +5,6 @@
  */
 package com.mycompany.e.cisnik;
 
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
-import org.junit.BeforeClass;
-import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
@@ -35,7 +30,7 @@ public class MealTest {
     @org.junit.Test
     public void testGetPrice() {
         Meal m = new Meal("polevka", 10, 1);
-        assertEquals((int)10, m.getPrice());
+        assertEquals((int) 10, m.getPrice());
 
         fail("Test se nepovedl " + m.getPrice());
     }
