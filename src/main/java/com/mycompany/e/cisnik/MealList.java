@@ -15,6 +15,9 @@ public class MealList {
     private ArrayList meallist;
     
     public MealList(){
+        
+        
+        //new ArrayList<Meal>;
     
     }
     
