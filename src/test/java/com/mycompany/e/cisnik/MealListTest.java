@@ -15,20 +15,18 @@ import static org.junit.Assert.*;
 public class MealListTest {
 
     /**
-     * Test of addToMealList method, of class MealList.
+     * Test of addToMealList method, of class MealManagementServiceMock.
      */
     @Test
     public void testAddToMealList() {
         System.out.println("addToMealList");
-          
-        
-       Meal m = new Meal("Rizek", 100, 1);
-       MealList ml = new MealList();
-       ml.addToMealList(m);
-       
+
+        Meal m = new Meal("Rizek", 100, 1);
+        MealManagementServiceMock ml = new MealManagementServiceMock();
+        ml.addMeal(m);
+
         assertEquals("Rizek", ml.get(0).getMealName());
-       
-       
+
         fail("Test failture");
     }
 }

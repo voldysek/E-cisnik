@@ -11,23 +11,23 @@ import java.util.ArrayList;
  *
  * @author voldy
  */
-public class MealList extends ArrayList<Meal> implements MealListInterface {
+public class MealManagementServiceMock extends ArrayList<Meal> implements MealManagementService {
 
-     public MealList() {
+    public MealManagementServiceMock() {
         //ArrayList<Meal>meallist = new ArrayList<>(); 
 
         //new ArrayList<Meal>;
     }
 
     @Override
-    public void addToMealList(Meal meal) {
+    public void addMeal(Meal meal) {
 
         this.add(meal);
 
     }
 
     @Override
-    public void listMealList() {
+    public void listMeals() {
 
         //vypis celeho listu do gui
         for (int i = 0; i < this.size(); i++) {

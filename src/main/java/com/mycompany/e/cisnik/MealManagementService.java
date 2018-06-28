@@ -5,15 +5,13 @@
  */
 package com.mycompany.e.cisnik;
 
-import java.util.ArrayList;
-
 /**
  *
  * @author voldy
  */
-public interface MealListInterface {
+public interface MealManagementService {
 
-    public void addToMealList(Meal meal);
+    public void addMeal(Meal meal);
 
-    public void listMealList();
+    public void listMeals();
 }
