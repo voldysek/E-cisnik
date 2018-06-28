@@ -24,7 +24,7 @@ public class TableTest {
     @Test
     public void testDeleteTable() {
         System.out.println("deleteTable");
-        Table instance = null;
+        Table instance = new Table(1);
         instance.deleteTable();
         // TODO review the generated test code and remove the default call to fail.
         fail("The test case is a prototype.");
