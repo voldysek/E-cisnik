@@ -13,6 +13,7 @@ package com.mycompany.e.cisnik;
 public class Table {
     private int table;
     private String mealName;
+    private int price;
     
     public Table(int table){
     this.table = table;
@@ -30,6 +31,19 @@ public void listTable(){
 //SELECT nazev FROM Objednavky WHERE TABLE==table
 
 
+}
+
+public int tablePrice(){
+
+    
+    //while(true){
+//price = SELECT price FROM Objednavky WHERE TABLE==table
+//prochazet tabulku po jednom radku a ulozit do price, mozna bude potreba v te tabulce stejne zavest id, nevim jak se to da prochazet po jednom
+   
+price = price+price;
+ //}
+
+return price;
 }
 
 
