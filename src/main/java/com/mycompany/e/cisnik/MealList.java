@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package com.mycompany.e.cisnik;
+import java.util.ArrayList;
 
 /**
  *
@@ -11,6 +12,31 @@ package com.mycompany.e.cisnik;
  */
 public class MealList {
     
+    private ArrayList meallist;
+    
+    public MealList(){
+    
+    }
+    
+    public void addToMealList(Meal meal){
+    
+    meallist.add(meal);
+    
+    
+    }
+    public void listMealList(){
+   
+        //vypis celeho listu do gui
+        for (int i = 0; i < meallist.size(); i++) {
+           //neco (meallist.get(i);)
+            //vypis polozky do gui
+            
+        }
+       
+    
+    }
+    
+        
    
    
     
