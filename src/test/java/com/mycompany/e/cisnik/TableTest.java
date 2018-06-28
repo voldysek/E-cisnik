@@ -62,11 +62,8 @@ public class TableTest {
     @Test
     public void testGetTable() {
         System.out.println("getTable");
-        Table instance = null;
-        int expResult = 0;
-        int result = instance.getTable();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
+        Table t = new Table(5);
+        assertEquals(5, t.getTable());
         fail("The test case is a prototype.");
     }
 
