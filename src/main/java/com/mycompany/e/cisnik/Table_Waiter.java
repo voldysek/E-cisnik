@@ -10,11 +10,11 @@ package com.mycompany.e.cisnik;
  *
  * @author voldy
  */
-public class Table {
+public class Table_Waiter {
     private int table;
     private int price;
     
-    public Table(int table){
+    public Table_Waiter(int table){
     this.table = table;
    
     

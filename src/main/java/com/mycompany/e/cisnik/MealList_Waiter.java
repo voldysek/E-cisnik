@@ -10,18 +10,18 @@ import java.util.ArrayList;
  *
  * @author voldy
  */
-public class MealList {
+public class MealList_Waiter {
     
-    private ArrayList<Meal> meallist;
+    private ArrayList<Meal_Waiter> meallist;
     
-    public MealList(){
+    public MealList_Waiter(){
         
         
         //new ArrayList<Meal>;
     
     }
     
-    public void addToMealList(Meal meal){
+    public void addToMealList(Meal_Waiter meal){
     
     meallist.add(meal);
     
