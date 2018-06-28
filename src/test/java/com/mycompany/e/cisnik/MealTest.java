@@ -23,13 +23,10 @@ public class MealTest {
      */
     @org.junit.Test
     public void testGetMealName() {
-        System.out.println("getMealName");
-        Meal instance = null;
-        String expResult = "";
-        String result = instance.getMealName();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Meal m = new Meal("polevka", 10, 1);
+        assertEquals("polevka", m.getMealName());
+
+        fail("Test se nepovedl " + m.getMealName());
     }
 
     /**
@@ -37,13 +34,10 @@ public class MealTest {
      */
     @org.junit.Test
     public void testGetPrice() {
-        System.out.println("getPrice");
-        Meal instance = null;
-        int expResult = 0;
-        int result = instance.getPrice();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Meal m = new Meal("polevka", 10, 1);
+        assertEquals((int)10, m.getPrice());
+
+        fail("Test se nepovedl " + m.getPrice());
     }
 
     /**
@@ -51,13 +45,10 @@ public class MealTest {
      */
     @org.junit.Test
     public void testGetAvailability() {
-        System.out.println("getAvailability");
-        Meal instance = null;
-        int expResult = 0;
-        int result = instance.getAvailability();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Meal m = new Meal("polevka", 10, 1);
+        assertEquals(1, m.getAvailability());
+
+        fail("Test se nepovedl " + m.getAvailability());
     }
 
     /**
@@ -65,12 +56,12 @@ public class MealTest {
      */
     @org.junit.Test
     public void testSetAvailability() {
-        System.out.println("setAvailability");
-        int availability = 0;
-        Meal instance = null;
-        instance.setAvailability(availability);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+        Meal m = new Meal("polevka", 10, 1);
+        m.setAvailability(0);
+
+        assertEquals(0, m.getAvailability());
+
+        fail("Test se nepovedl " + m.getAvailability());
     }
 
 }
