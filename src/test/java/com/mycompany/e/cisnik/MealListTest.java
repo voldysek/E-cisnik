@@ -24,10 +24,15 @@ public class MealListTest {
     @Test
     public void testAddToMealList() {
         System.out.println("addToMealList");
-        Meal meal = null;
-        MealList instance = new MealList();
-        instance.addToMealList(meal);
-        // TODO review the generated test code and remove the default call to fail.
+          
+        
+       Meal m = new Meal("Rizek", 100, 1);
+       MealList ml = new MealList();
+       ml.addToMealList(m);
+       
+        assertEquals(m,ml.get(0));
+       
+       
         fail("The test case is a prototype.");
     }
 

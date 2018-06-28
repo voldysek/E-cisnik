@@ -11,12 +11,10 @@ import java.util.ArrayList;
  *
  * @author voldy
  */
-public class MealList implements MealListInterface {
+public class MealList extends ArrayList<Meal> implements MealListInterface {
 
-    private ArrayList<Meal> meallist;
-
-    public MealList() {
-        meallist = new ArrayList<>();
+     public MealList() {
+        //meallist = new ArrayList<>(); 
 
         //new ArrayList<Meal>;
     }
@@ -24,7 +22,7 @@ public class MealList implements MealListInterface {
     @Override
     public void addToMealList(Meal meal) {
 
-        meallist.add(meal);
+        this.add(meal);
 
     }
 
@@ -32,7 +30,7 @@ public class MealList implements MealListInterface {
     public void listMealList() {
 
         //vypis celeho listu do gui
-        for (int i = 0; i < meallist.size(); i++) {
+        for (int i = 0; i < this.size(); i++) {
             //neco (meallist.get(i);)
             //vypis polozky do gui
 
