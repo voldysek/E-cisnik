@@ -9,7 +9,7 @@ package com.mycompany.e.cisnik;
  *
  * @author voldy
  */
-public class Main_Waiter {
+public class Main {
     
     public static void main(String[] args) {
         

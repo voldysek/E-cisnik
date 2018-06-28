@@ -9,12 +9,12 @@ package com.mycompany.e.cisnik;
  *
  * @author voldy
  */
-public class Meal_Waiter {
+public class Meal {
     private String mealName;
     private int price;
     private int availability;
     
-    Meal_Waiter(String mealName, int price, int availability){
+    Meal(String mealName, int price, int availability){
     this.mealName = mealName;
     this.price = price;
     this.availability = availability;
