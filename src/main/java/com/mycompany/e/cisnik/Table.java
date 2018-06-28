@@ -9,7 +9,7 @@ package com.mycompany.e.cisnik;
  *
  * @author voldy
  */
-public class Table {
+public class Table implements TableInterface {
 
     private int table;
     private int price;
@@ -19,16 +19,19 @@ public class Table {
 
     }
 
+    @Override
     public void deleteTable() {
 
 //DROP * FROM Orders WHERE this.getTable()==table
     }
 
+    @Override
     public void listTable() {
 
 //SELECT nazev FROM Objednavky WHERE TABLE==table
     }
 
+    @Override
     public int tablePrice() {
 
         //while(true){
@@ -40,6 +43,7 @@ public class Table {
         return price;
     }
 
+    @Override
     public int getTable() {
         return table;
     }

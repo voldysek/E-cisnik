@@ -9,7 +9,7 @@ package com.mycompany.e.cisnik;
  *
  * @author voldy
  */
-public class Meal implements MealInterface{
+public class Meal implements MealInterface {
 
     private String mealName;
     private int price;

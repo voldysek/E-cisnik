@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author voldy
  */
-public class MealList implements MealListInterface{
+public class MealList implements MealListInterface {
 
     private ArrayList<Meal> meallist;
 
