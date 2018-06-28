@@ -20,8 +20,6 @@ public class MealTest {
     public void testGetMealName() {
         Meal m = new Meal("polevka", 10, 1);
         assertEquals("polevka", m.getMealName());
-
-        fail("Test se nepovedl " + m.getMealName());
     }
 
     /**
@@ -31,8 +29,6 @@ public class MealTest {
     public void testGetPrice() {
         Meal m = new Meal("polevka", 10, 1);
         assertEquals((int) 10, m.getPrice());
-
-        fail("Test se nepovedl " + m.getPrice());
     }
 
     /**
@@ -42,8 +38,6 @@ public class MealTest {
     public void testGetAvailability() {
         Meal m = new Meal("polevka", 10, 1);
         assertEquals(1, m.getAvailability());
-
-        fail("Test se nepovedl " + m.getAvailability());
     }
 
     /**
@@ -55,8 +49,6 @@ public class MealTest {
         m.setAvailability(0);
 
         assertEquals(0, m.getAvailability());
-
-        fail("Test se nepovedl " + m.getAvailability());
     }
 
 }

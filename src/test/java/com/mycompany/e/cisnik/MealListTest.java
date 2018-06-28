@@ -27,6 +27,5 @@ public class MealListTest {
 
         assertEquals("Rizek", ml.get(0).getMealName());
 
-        fail("Test failture");
     }
 }

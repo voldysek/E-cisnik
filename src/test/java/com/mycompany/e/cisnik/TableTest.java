@@ -22,7 +22,6 @@ public class TableTest {
         System.out.println("getTable");
         Table t = new Table(5);
         assertEquals(5, t.getTable());
-        fail("The test case is a prototype.");
     }
 
 }
