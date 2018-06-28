@@ -9,7 +9,7 @@ package com.mycompany.e.cisnik;
  *
  * @author voldy
  */
-public class Meal {
+public class Meal implements MealInterface{
 
     private String mealName;
     private int price;
@@ -22,18 +22,22 @@ public class Meal {
 
     }
 
+    @Override
     public String getMealName() {
         return mealName;
     }
 
+    @Override
     public int getPrice() {
         return price;
     }
 
+    @Override
     public int getAvailability() {
         return availability;
     }
 
+    @Override
     public void setAvailability(int availability) {
         this.availability = availability;
     }

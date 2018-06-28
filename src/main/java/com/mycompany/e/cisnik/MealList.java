@@ -11,7 +11,7 @@ import java.util.ArrayList;
  *
  * @author voldy
  */
-public class MealList {
+public class MealList implements MealListInterface{
 
     private ArrayList<Meal> meallist;
 
@@ -20,12 +20,14 @@ public class MealList {
         //new ArrayList<Meal>;
     }
 
+    @Override
     public void addToMealList(Meal meal) {
 
         meallist.add(meal);
 
     }
 
+    @Override
     public void listMealList() {
 
         //vypis celeho listu do gui
