@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class MealList extends ArrayList<Meal> implements MealListInterface {
 
      public MealList() {
-        //meallist = new ArrayList<>(); 
+        //ArrayList<Meal>meallist = new ArrayList<>(); 
 
         //new ArrayList<Meal>;
     }

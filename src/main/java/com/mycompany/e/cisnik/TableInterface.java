@@ -11,11 +11,25 @@ package com.mycompany.e.cisnik;
  */
 public interface TableInterface {
 
+    /**
+     * Metoda, která vymaže objednávku, která byla u určitého stolu.
+     */
     public void deleteTable();
 
+    /**
+     * Metoda, která vypíše objednávku od určitého stolu.
+     */
     public void listTable();
 
+    /**
+     * Metoda, která spočítá cenu objednaných jídel u daného stolu.
+     * @return Návratová hodnota je cena.
+     */
     public int tablePrice();
 
+    /**
+     * Metoda, která vrací hodnotu čísla stolu.
+     * @return Číslo stolu.
+     */
     public int getTable();
 }
