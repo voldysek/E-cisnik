@@ -10,12 +10,11 @@ package com.mycompany.e.cisnik;
  * @author voldy
  */
 public class Main {
-    
+
     public static void main(String[] args) {
-        
+
         System.out.println("Hello world");
-        
-        
+
     }
-    
+
 }

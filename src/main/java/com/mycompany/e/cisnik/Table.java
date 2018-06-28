@@ -5,57 +5,43 @@
  */
 package com.mycompany.e.cisnik;
 
-
 /**
  *
  * @author voldy
  */
 public class Table {
+
     private int table;
     private int price;
-    
-    public Table(int table){
-    this.table = table;
-   
-    
+
+    public Table(int table) {
+        this.table = table;
+
     }
 
-public void deleteTable(){
+    public void deleteTable() {
 
 //DROP * FROM Orders WHERE this.getTable()==table
+    }
 
-}
-public void listTable(){
+    public void listTable() {
 
 //SELECT nazev FROM Objednavky WHERE TABLE==table
+    }
 
+    public int tablePrice() {
 
-}
-
-public int tablePrice(){
-
-    
-    //while(true){
+        //while(true){
 //price = SELECT price FROM Objednavky WHERE TABLE==table
 //prochazet tabulku po jednom radku a ulozit do price, mozna bude potreba v te tabulce stejne zavest id, nevim jak se to da prochazet po jednom
-   
-this.price= this.price+this.price;
- //}
+        this.price = this.price + this.price;
+        //}
 
-return price;
-}
+        return price;
+    }
 
     public int getTable() {
         return table;
     }
 
-
-
-
-
-
-    
-    
-    
-    
 }
